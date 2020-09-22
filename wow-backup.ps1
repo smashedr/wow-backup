@@ -1,7 +1,6 @@
 $ErrorActionPreference = "Stop"
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 function ExitScript() {
     Read-Host -Prompt "Press <enter> to exit or close this window"
@@ -76,7 +75,6 @@ $wtf_dir_path = Join-Path -Path $backup_dir_path -ChildPath "WTF"
 
 Write-Output "Compressing backup archive now, please wait..."
 
-#Compress-Archive -LiteralPath $interface_dir_path, $wtf_dir_path -DestinationPath "D:\Shane\Downloads\test\backup.zip"
 $compress = @{
     LiteralPath = $interface_dir_path, $wtf_dir_path
     CompressionLevel = "Optimal"
