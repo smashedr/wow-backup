@@ -1,8 +1,10 @@
 # WoW Backup
 
-A simple script to backup your wow addons and settings.
+A simple script to backup your World of Warcraft settings, addons, and addon settings.
 
-### Download
+Only works on Windows 10.
+
+## Download
 
 Latest Release: [Click Here to Download](https://github.com/smashedr/wow-backup/releases/latest/download/WoW-Backup.exe).
 
