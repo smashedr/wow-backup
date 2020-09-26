@@ -1,6 +1,6 @@
-# WoW Backup
+# WoW Backup and Restore
 
-A simple script to backup your World of Warcraft settings, addons, and addon settings.
+A simple script to backup and restore your World of Warcraft settings, addons, and addon settings.
 
 Only works on Windows 10.
 
